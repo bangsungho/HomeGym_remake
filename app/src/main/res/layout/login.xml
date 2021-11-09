@@ -28,7 +28,7 @@
                 android:text="스위트 홈 트레이닝 대문 ? 자리"
                 />
             <ImageView
-                android:id="@+id/title_image"
+                android:id="@+id/login_title_image"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:scaleType="centerInside"
@@ -78,12 +78,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="비밀번호를 입력 하세요."
+            android:inputType="textPassword"
             android:padding="10pt"
             />
 
         <Button
             android:id="@+id/login_button"
-            android:background="@drawable/loginbtn_shape"
+            android:background="@drawable/loginbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="7dp"
@@ -93,7 +94,7 @@
             />
         <Button
             android:id="@+id/signUp_button"
-            android:background="@drawable/loginbtn_shape"
+            android:background="@drawable/loginbtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
